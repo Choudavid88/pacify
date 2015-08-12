@@ -856,6 +856,26 @@ max-width:69%;
 margin:auto;
 float:left;
 margin-right:2%;
+width: 1000px !important;
+}
+
+.location {
+margin-left: 10%;
+}
+
+#Button_Ticket {
+  background-color: #F4CDCE; 
+}
+
+#Button_Information {
+  background-color: #E3E1B8; 
+}
+
+.Button_Tickets {
+margin-left: 5%;
+}
+.Button_Information {
+margin-left: 5%;
 }
 
 #secondary{
