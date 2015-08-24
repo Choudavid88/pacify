@@ -53,4 +53,9 @@ if ( has_post_thumbnail() ) {
 	</div> <!-- wrapper -->
 </article><!-- #post-## -->
 
+<!--
+Search Everything (search)
+Newest Posts
 
+
+-->
