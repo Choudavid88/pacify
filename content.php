@@ -30,9 +30,10 @@ if ( has_post_thumbnail() ) {
 <!--<?php echo $date ?>
 <?php the_meta(); ?>-->
 		<?php if ( 'post' == get_post_type() ) : ?>
-		<div class="entry-meta"> <br />
-			<p class="location"><span class="Span_Venue"> <?php echo $venue ?> </span> <br>
-			<span class="Span_Location"> <?php echo $location ?> </span></p> <!-- Style This -->
+		<div class="entry-meta"> 
+			<p class="location"><span class="Span_Date"> <?php echo $date ?> </span><br>
+			<span class="Span_Venue"> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<?php echo $venue ?> </span> <br>
+			<span class="Span_Location"> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<?php echo $location ?> </span></p> <!-- Style This -->
 			
 			
 		</div><!-- .entry-meta -->
